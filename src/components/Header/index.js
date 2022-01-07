@@ -1,19 +1,37 @@
-import React from "react";
+// import React from "react";
 
 
-function Header() {
-    return (
-        <section className="header">
+// function Header() {
+//     return (
+//         <header className="header">
 
-            <h1 className="my-name">Collin Whalen</h1>
+//             <h1 className="my-name">Collin Whalen</h1>
+// <nav>
+//     <ul>
+//         <li>
+//             <a>
+//                 About Me
+//                 </a>
+//         </li>
+//         <li>
+//             <a>
+//                 Projects
+//                 </a>
+//         </li>
+//         <li>
+//             <a onClick={() => contactPage(true)}>
+//                 Contact Me
+//                 </a>
+//         </li>
+//         <li>
+//             <a>
+//                 Resume
+//                 </a>
+//         </li>
+//     </ul>
+// </nav>
+//         </header>
+//     )
+// }
 
-            <h3>About Me</h3>
-            <h3>Projects</h3>
-            <h3>Contact Me</h3>
-            <h3>Resume</h3>
-
-        </section>
-    )
-}
-
-export default Header;
+// export default Header;
