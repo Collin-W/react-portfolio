@@ -7,9 +7,8 @@ function DisplayProjects({ projectsArray }) {
         return (
           <section>
             <h1> {project.name} </h1>
-            <a>
-              {project.link}
-              <img src={project.image} />
+            <a href={project.link}>
+              <img src={project.image} key={project.name} alt={project.name} />
             </a>
             <p> {project.description} </p>
           </section>

@@ -1,7 +1,6 @@
 import React from 'react'; //{ useState }
-// import Header from './components/Header/index'
-// import Footer from './components/Footer/index'
-// import Nav from './components/Navigation/index'
+import Header from './components/Header/index'
+import Footer from './components/Footer/index'
 import DisplayProjects from './components/DisplayProjects/index'
 
 function App() {
@@ -29,8 +28,11 @@ function App() {
 
 return (
     <div>
+    <Header></Header>
 
     <DisplayProjects projectsArray={projectsArray}/>
+
+    <Footer></Footer>
 
     </div>
 )
