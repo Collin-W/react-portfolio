@@ -1,5 +1,5 @@
 import React from "react";
-// might needs to create the project array before I make this component
+
 function DisplayProjects({ projectsArray }) {
   return (
     <>

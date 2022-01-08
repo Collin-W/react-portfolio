@@ -1,7 +1,10 @@
 import React from 'react'; //{ useState }
 import Header from './components/Header/index'
 import Footer from './components/Footer/index'
+import About from './components/About';
 import DisplayProjects from './components/DisplayProjects/index'
+import ContactMe from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
 
@@ -30,11 +33,15 @@ return (
     <div>
     <Header></Header>
 
+    <About></About>
+
     <DisplayProjects projectsArray={projectsArray}/>
 
-    <Footer>
-    
-    </Footer>
+    <ContactMe></ContactMe>
+
+    <Resume></Resume>
+
+    <Footer></Footer>
 
     </div>
 )
