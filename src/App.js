@@ -32,7 +32,9 @@ return (
 
     <DisplayProjects projectsArray={projectsArray}/>
 
-    <Footer></Footer>
+    <Footer>
+    
+    </Footer>
 
     </div>
 )
