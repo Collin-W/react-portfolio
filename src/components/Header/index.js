@@ -1,9 +1,16 @@
 import React from "react";
 
-function Header(props) {
-const {
-    contactPage
-} = props
+function Header({
+  contactPage, setContactPage,
+  aboutPage, setAboutPage
+}) {
+
+const onClick = () => {
+setContactPage(!contactPage)
+setAboutPage(!aboutPage)
+}
+
+
 
 
 
@@ -13,13 +20,13 @@ const {
       <nav>
         <ul>
           <li>
-            <a href="#About">About Me</a>
+            <a href="#About" onClick={() => setAboutPage(!aboutPage)}>About Me</a>
           </li>
           <li>
             <a href="#Projects">Projects</a>
           </li>
           <li>
-            <a href="#Contact" onClick={() => contactPage(true)}>Contact Me</a>
+            <a href="#Contact" onClick={() => onClick()}>Contact Me</a>
           </li>
           <li>
             <a href="#Resume">Resume</a>
