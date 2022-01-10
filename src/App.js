@@ -36,7 +36,9 @@ function App() {
   ];
 
   return (
+    
     <div>
+
       <Header 
       setContactPage={setContactPage} contactPage={contactPage}
       setProjectPage={setProjectPage} projectPage={projectPage}
