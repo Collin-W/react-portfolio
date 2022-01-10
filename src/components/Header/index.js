@@ -24,8 +24,8 @@ setAboutPage(!aboutPage)
   return (
     <header className="header">
       <h1 className="my-name">Collin Whalen</h1>
-      <nav>
-        <ul>
+      <nav className="nav-bar">
+        <ul className="nav-items">
           <li>
             <a href="#About" onClick={() => setAboutPage(!aboutPage)}>About Me</a>
           </li>

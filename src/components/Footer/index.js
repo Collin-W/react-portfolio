@@ -5,13 +5,16 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 function Footer() {
   return (
     <div id="footer">
-      <a href="https://github.com/Collin-W">
-        <FontAwesomeIcon className="footer-icon" icon={faGithub} />
+  
+      <a className="footer-icon" href="https://github.com/Collin-W">
+        <FontAwesomeIcon  icon={faGithub} />
       </a>
-
-      <a href="https://www.linkedin.com/in/collin-whalen/">
-        <FontAwesomeIcon className="footer-icon" icon={faLinkedin} />
+     
+     
+      <a className="footer-icon" href="https://www.linkedin.com/in/collin-whalen/">
+        <FontAwesomeIcon  icon={faLinkedin} />
       </a>
+      
     </div>
   );
 }

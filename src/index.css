@@ -5,9 +5,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aqua;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.footer-icon{
+  font-size: 4em;
+ 
+  display: flex;
+  justify-content: space-evenly;
+
+  /* size: 250px; */
+}
+  
+
+
+resume{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+header{
+  display: flex;
+}
+.nav-bar{
+  
+  
+}
+
+.nav-items{
+  
+  justify-content: space-between;
+}
+
