@@ -1,5 +1,5 @@
 Heroku Link:
-https://git.heroku.com/secure-beyond-17036.git
+https://secure-beyond-17036.herokuapp.com/
 
 
 # Getting Started with Create React App
