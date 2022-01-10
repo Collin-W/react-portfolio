@@ -2,16 +2,23 @@ import React from "react";
 
 function Header({
   contactPage, setContactPage,
-  aboutPage, setAboutPage
+  aboutPage, setAboutPage,
+  resumePage, setResumePage,
+  projectPage, setProjectPage
 }) {
 
-const onClick = () => {
+const onContact = () => {
 setContactPage(!contactPage)
 setAboutPage(!aboutPage)
 }
-
-
-
+const onProject = () => {
+setProjectPage(!contactPage)
+setAboutPage(!aboutPage)
+}
+const onResume = () => {
+setResumePage(!contactPage)
+setAboutPage(!aboutPage)
+}
 
 
   return (
@@ -23,13 +30,13 @@ setAboutPage(!aboutPage)
             <a href="#About" onClick={() => setAboutPage(!aboutPage)}>About Me</a>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <a href="#Projects" onClick={() => onProject(projectPage)}>Projects</a>
           </li>
           <li>
-            <a href="#Contact" onClick={() => onClick()}>Contact Me</a>
+            <a href="#Contact" onClick={() => onContact()}>Contact Me</a>
           </li>
           <li>
-            <a href="#Resume">Resume</a>
+            <a href="#Resume" onClick={() => onResume(resumePage)}>Resume</a>
           </li>
         </ul>
       </nav>
