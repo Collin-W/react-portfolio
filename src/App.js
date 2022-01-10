@@ -36,6 +36,24 @@ function App() {
       image: "./assets/images/Screenshot (25).png",
       description: "Find the weather forecast in a city.",
     },
+    {
+      name: "Note Taker",
+      link: "https://pure-plateau-21225.herokuapp.com/",
+      image: "./assets/images/140616828-a71d0193-5491-4619-82c1-d1bbdf65c8ea.png",
+      description: "A note taking app.",
+    },
+    {
+      name: "Run Buddy",
+      link: "https://lernantino.github.io/run-buddy/",
+      image: "",
+      description: "A project using HTML and CSS.",
+    },
+    {
+      name: "E-Commerce API",
+      link: "https://github.com/Collin-W/e-commerce-back-end",
+      image: "",
+      description: "The back end for an e-commerce store website.",
+    }
   ];
 
   return (
